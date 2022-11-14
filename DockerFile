@@ -1,0 +1,10 @@
+FROM openjdk:17-oracle
+ENV PORT 8080
+ENV CLASSPATH /opt/lib
+EXPOSE 8080
+
+COPY pom.xml target/lib* /opt/lib/
+
+COPY */target/*-app.jar /opt/app.jar
+WORKDIR /opt
+CMD ["java", "-jar", "app.jar"]
