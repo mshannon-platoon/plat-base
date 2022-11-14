@@ -8,7 +8,7 @@
     <groupId>ie.plat.base</groupId>
     <artifactId>plat-base</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath/> <!-- lookup parent from repository -->
+    <relativePath/>
   </parent>
 
   <groupId>ie.plat</groupId>
@@ -50,7 +50,6 @@
       <version>1.17.5</version>
       <scope>test</scope>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/org.testcontainers/junit-jupiter -->
     <dependency>
       <groupId>org.testcontainers</groupId>
       <artifactId>junit-jupiter</artifactId>
