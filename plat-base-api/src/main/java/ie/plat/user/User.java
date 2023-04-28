@@ -1,4 +1,4 @@
-package ie.plat.model;
+package ie.plat.user;
 
 import java.util.Arrays;
 import java.util.Date;

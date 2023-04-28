@@ -17,20 +17,3 @@ CREATE TABLE users
 
 ALTER TABLE users
     ALTER COLUMN id SET DEFAULT nextval('user_seq');
-
-CREATE
-OR REPLACE FUNCTION trigger_set_updated_at()
-    RETURNS TRIGGER AS $$
-BEGIN
-        NEW.last_updated_at
-= NOW();
-RETURN NEW;
-END;
-$$
-LANGUAGE plpgsql;
-
-CREATE TRIGGER set_updated_ad
-    BEFORE UPDATE
-    ON users
-    FOR EACH ROW
-    EXECUTE PROCEDURE trigger_set_updated_at();

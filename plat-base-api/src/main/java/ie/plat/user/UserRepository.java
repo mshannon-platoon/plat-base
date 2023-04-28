@@ -1,7 +1,5 @@
-package ie.plat.db;
+package ie.plat.user;
 
-
-import ie.plat.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
