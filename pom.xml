@@ -15,6 +15,14 @@
 		<java.version>17</java.version>
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
+		<!-- Versions -->
+		<springboot.starter.web.version>3.0.6</springboot.starter.web.version>
+		<springboot.starter.datajpa.version>3.0.6</springboot.starter.datajpa.version>
+		<sprint.data.jpa.version>3.0.5</sprint.data.jpa.version>
+
+		<postgres.version>42.5.4</postgres.version>
+		<jakarta.servlet.version>6.0.0</jakarta.servlet.version>
+		<javaxmlbind.version>2.3.1</javaxmlbind.version>
 	</properties>
 
 	<modules>

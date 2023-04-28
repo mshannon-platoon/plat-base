@@ -1,0 +1,7 @@
+{
+  "username": "username",
+  "email": "email",
+  "password": "very-secure-password",
+  "mobileNumber": "mobileNumber",
+  "roles": "PRIVATE_USER,ADMIN"
+}
