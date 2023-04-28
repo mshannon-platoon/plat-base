@@ -8,7 +8,6 @@
     <groupId>ie.plat.base</groupId>
     <artifactId>plat-base</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath/>
   </parent>
 
   <groupId>ie.plat</groupId>
