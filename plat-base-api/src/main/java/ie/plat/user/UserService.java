@@ -23,4 +23,6 @@ public class UserService {
         .findById(userId)
         .map(UserFactory::createUserDTOFromUser);
   }
+
+
 }
