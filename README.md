@@ -12,8 +12,10 @@ The plat-base repository is a starting point for initial development out of the 
 - Setup for Integration Tests
 
 
-
-
+### Roadmap
+- Add a controller for User Object with CRUD operations
+- Add redis to that controller functionality
+- Add ElasticSearch for user lookup functionality and simulate 1+ million users
 
 
 
