@@ -2,6 +2,9 @@
 ## Overview
 The plat-base repository is a starting point for initial development out of the box.
 
+### Versions
+Spring boot 3.XX
+
 ### Features
 
 - maven-multi-module project with a single module
@@ -23,5 +26,5 @@ The plat-base repository is a starting point for initial development out of the 
 #### Learnings
 
 - When creating the db.migration folder, ensure that you create the DB folder first, then the MIGRATION folder as it will think that they are the same folder and flyway will not pick up on any migrations
-
+- When converting from Spring boot 2x to 3x we find that the javax libraries are removed and now we have to or can use jakarta libraries on our DB entities.
 
